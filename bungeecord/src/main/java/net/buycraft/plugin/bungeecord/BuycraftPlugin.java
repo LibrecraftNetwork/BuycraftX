@@ -146,7 +146,6 @@ public class BuycraftPlugin extends Plugin {
         command.getSubcommandMap().put("secret", new SecretSubcommand(this));
         command.getSubcommandMap().put("info", new InformationSubcommand(this));
         command.getSubcommandMap().put("report", new ReportCommand(this));
-        command.getSubcommandMap().put("coupon", new CouponSubcommand(this));
         getProxy().getPluginManager().registerCommand(this, command);
 
         // Send data to Keen IO

@@ -196,7 +196,6 @@ public abstract class BuycraftPluginBase extends JavaPlugin {
         command.getSubcommandMap().put("refresh", new RefreshSubcommand(this));
         command.getSubcommandMap().put("signupdate", new SignUpdateSubcommand(this));
         command.getSubcommandMap().put("report", new ReportCommand(this));
-        command.getSubcommandMap().put("coupon", new CouponSubcommand(this));
         command.getSubcommandMap().put("sendlink", new SendLinkSubcommand(this));
         getCommand("buycraft").setExecutor(command);
 
