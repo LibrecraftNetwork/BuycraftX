@@ -14,7 +14,7 @@ public class BuycraftCommand extends Command {
     private final BuycraftPlugin plugin;
 
     public BuycraftCommand(BuycraftPlugin plugin) {
-        super("tebex", null, "buycraft");
+        super("tebex", null, "gbuycraft");
         this.plugin = plugin;
     }
 
